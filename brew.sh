@@ -97,5 +97,19 @@ brew install gs
 # brew install vbindiff
 # brew install zopfli
 
+# Install Python 3
+brew install python3
+
+# Install Elasticsearch
+brew tap elastic/tap
+brew install elastic/tap/elasticsearch-full
+
+# Install Kibana
+# brew tap elastic/tap
+brew install elastic/tap/kibana-full
+
+# node version manager
+brew install nvm
+
 # Remove outdated versions from the cellar.
 brew cleanup
