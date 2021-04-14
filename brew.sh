@@ -111,5 +111,8 @@ brew install elastic/tap/kibana-full
 # node version manager
 brew install nvm
 
+# gpg suite for signing commits using keychain
+brew install --cask gpg-suite
+
 # Remove outdated versions from the cellar.
 brew cleanup
